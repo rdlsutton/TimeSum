@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TimeSum</string>
+    <string name="app_title">Time Sum</string>
+    <string name="clear">Clr</string>
+    <string name="clear_all">Clear All</string>
+    <string name="col">:</string>
+    <string name="dup_zero">00</string>
+    <string name="hours_hint">hh</string>
+    <string name="minutes_hint">mm</string>
+    <string name="next">Next</string>
+    <string name="open_title">Time Sum: 0:00:00</string>
+    <string name="seconds_hint">ss</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+</resources>

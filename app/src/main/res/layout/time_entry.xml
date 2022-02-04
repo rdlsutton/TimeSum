@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="18sp" />
+
+    <com.radlsuttonedmn.timesum.OnTouchEditText
+        android:id="@+id/editTextHours"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/edit_text_underline_white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/col" />
+
+    <com.radlsuttonedmn.timesum.OnTouchEditText
+        android:id="@+id/editTextMinutes"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/edit_text_underline_white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/col" />
+
+    <com.radlsuttonedmn.timesum.OnTouchEditText
+        android:id="@+id/editTextSeconds"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/edit_text_underline_white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+</LinearLayout>
